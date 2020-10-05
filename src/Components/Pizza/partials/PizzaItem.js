@@ -7,7 +7,7 @@ import './PizzaItem.css';
 import joinArrayPhonetically from '../../../helpers/formating';
 
 export default function PizzaItem(props) {
-  const { pizza, isDetail } = props;
+  const { pizza, isDetail, price } = props;
   const history = useHistory();
 
   return (
@@ -27,7 +27,7 @@ export default function PizzaItem(props) {
             )
           }
           <div className="pizza-item--price">
-            USD {pizza.price.toFixed(2)}
+            $ {price ? price.toFixed(2) : pizza.price.toFixed(2)}
           </div>
         </div>
       </div>
@@ -46,4 +46,10 @@ PizzaItem.propTypes = {
     price: PropTypes.number,
   }).isRequired,
   isDetail: PropTypes.bool,
+  price: PropTypes.number,
+};
+
+PizzaItem.defaultProps = {
+  isDetail: false,
+  price: null,
 };

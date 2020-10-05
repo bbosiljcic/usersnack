@@ -1,0 +1,44 @@
+.pizza-detail {
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.pizza-detail h3 {
+    margin-bottom: 2rem;
+}
+
+.pizza-detail--input {
+    width: 100%;
+    margin-bottom: 1rem !important;
+}
+
+.pizza-detail--order {
+    margin-top: 4rem !important;
+    float: right;
+}
+
+.pizza-detail--order--emoji {
+    margin-right: 0.5rem;
+}
+
+.extra--select, .extra {
+    width: 100%;
+}
+
+.extra--chip--wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.extra--chip {
+    margin: 0.25rem;
+}
+
+.extra--menu-item {
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.extra--menu-item--price {
+    margin-left: 1rem;
+}
