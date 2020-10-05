@@ -2,6 +2,10 @@
 
 I could've made my life much easier with using class based components, but this is the first project where I tried to use functional components with hooks, also this is the first project where I wrote some kind of tests for it.
 
+### Demo
+[Here](https://bb-usersnack.herokuapp.com/) is a demo deployed on heroku.
+Watch out, the first load might take long as there is a coldstart period on herokus side.
+
 ### Todos
 
 * make things responsive
