@@ -7,7 +7,7 @@ import './PizzaItem.css';
 import joinArrayPhonetically from '../../../helpers/formating';
 
 export default function PizzaItem(props) {
-  const { pizza } = props;
+  const { pizza, isDetail } = props;
   const history = useHistory();
 
   return (
@@ -18,9 +18,14 @@ export default function PizzaItem(props) {
           <span className="pizza-item--incredients">{joinArrayPhonetically(pizza.incredients)}</span>
         </div>
         <div className="pizza-item--actions">
-          <Button variant="outlined" color="primary" onClick={() => history.push(`/pizza/${pizza.id}`)}>
-            Order a {pizza.name}
-          </Button>
+          {
+            !isDetail
+            && (
+            <Button variant="outlined" color="primary" onClick={() => history.push(`/pizza/${pizza.id}`)}>
+              Order a {pizza.name}
+            </Button>
+            )
+          }
           <div className="pizza-item--price">
             USD {pizza.price.toFixed(2)}
           </div>
@@ -40,4 +45,5 @@ PizzaItem.propTypes = {
     name: PropTypes.string,
     price: PropTypes.number,
   }).isRequired,
+  isDetail: PropTypes.bool,
 };

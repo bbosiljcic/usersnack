@@ -10,11 +10,9 @@ export default function PizzaOverview() {
     setPizzas(pizzaService.getAll());
   }, []);
 
-  console.log('pizzas', pizzas);
-
   return (
     <div>
-      <h2>Our tasties pizzas</h2>
+      <h2>Get one of our freshly made pizzas</h2>
       { pizzas.map((p) => (<PizzaItem pizza={p} key={p.id} />)) }
     </div>
 

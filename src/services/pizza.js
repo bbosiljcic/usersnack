@@ -5,7 +5,7 @@ function getAll() {
 }
 
 function getOneById(id) {
-  return pizzas.find((p) => p.id === id)
+  return pizzas.find((p) => p.id === parseInt(id, 10));
 }
 
 export default {
