@@ -1,0 +1,27 @@
+.pizza-item {
+    margin-bottom: 2rem;
+    display: flex;
+}
+
+.pizza-item--content {
+    flex-grow: 1;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pizza-item--incredients {
+    color: #757575;
+    margin-bottom: 2rem;
+}
+
+.pizza-item--price {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.pizza-item--actions {
+    display: flex;
+    justify-content: space-between;
+}
