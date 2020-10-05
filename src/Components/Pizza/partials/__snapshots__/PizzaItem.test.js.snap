@@ -1,0 +1,166 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when there a pizza 1`] = `
+<div
+  className="MuiPaper-root MuiCard-root pizza-item MuiPaper-elevation1 MuiPaper-rounded"
+>
+  <div
+    className="pizza-item--content"
+  >
+    <div>
+      <h3>
+        test Pizza
+      </h3>
+      <span
+        className="pizza-item--incredients"
+      >
+        ing1, ing2 and ing3
+      </span>
+    </div>
+    <div
+      className="pizza-item--actions"
+    >
+      <button
+        className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiButton-label"
+        >
+          Order a 
+          test Pizza
+        </span>
+      </button>
+      <div
+        className="pizza-item--price"
+      >
+        $ 
+        100.00
+      </div>
+    </div>
+  </div>
+  <img
+    alt="tasty test Pizza"
+    src="/assets/pizzas/undefined"
+  />
+</div>
+`;
+
+exports[`renders correctly when there a pizza and is detail 1`] = `
+<div
+  className="MuiPaper-root MuiCard-root pizza-item MuiPaper-elevation1 MuiPaper-rounded"
+>
+  <div
+    className="pizza-item--content"
+  >
+    <div>
+      <h3>
+        test Pizza
+      </h3>
+      <span
+        className="pizza-item--incredients"
+      >
+        ing1, ing2 and ing3
+      </span>
+    </div>
+    <div
+      className="pizza-item--actions"
+    >
+      <div
+        className="pizza-item--price"
+      >
+        $ 
+        100.00
+      </div>
+    </div>
+  </div>
+  <img
+    alt="tasty test Pizza"
+    src="/assets/pizzas/undefined"
+  />
+</div>
+`;
+
+exports[`renders correctly when there a pizza and isDetail 1`] = `
+<div
+  className="MuiPaper-root MuiCard-root pizza-item MuiPaper-elevation1 MuiPaper-rounded"
+>
+  <div
+    className="pizza-item--content"
+  >
+    <div>
+      <h3>
+        test Pizza
+      </h3>
+      <span
+        className="pizza-item--incredients"
+      >
+        ing1, ing2 and ing3
+      </span>
+    </div>
+    <div
+      className="pizza-item--actions"
+    >
+      <div
+        className="pizza-item--price"
+      >
+        $ 
+        100.00
+      </div>
+    </div>
+  </div>
+  <img
+    alt="tasty test Pizza"
+    src="/assets/pizzas/undefined"
+  />
+</div>
+`;
+
+exports[`renders correctly when there a pizza, is detail and has a price 1`] = `
+<div
+  className="MuiPaper-root MuiCard-root pizza-item MuiPaper-elevation1 MuiPaper-rounded"
+>
+  <div
+    className="pizza-item--content"
+  >
+    <div>
+      <h3>
+        test Pizza
+      </h3>
+      <span
+        className="pizza-item--incredients"
+      >
+        ing1, ing2 and ing3
+      </span>
+    </div>
+    <div
+      className="pizza-item--actions"
+    >
+      <div
+        className="pizza-item--price"
+      >
+        $ 
+        200.00
+      </div>
+    </div>
+  </div>
+  <img
+    alt="tasty test Pizza"
+    src="/assets/pizzas/undefined"
+  />
+</div>
+`;
