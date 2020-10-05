@@ -1,0 +1,9 @@
+.header {
+    background-image: url('/assets/pizza_header.jpg');
+    background-size: cover;
+    padding: 4rem 2rem;
+    text-align: center;
+    color: #fff;
+    background-position: center center;
+    box-shadow: 0 2px 10px 0 rgba(33, 43, 55, 0.25);
+}
