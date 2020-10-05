@@ -1,13 +1,23 @@
 import React from 'react';
-import './App.css';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-import pizzaService from './services/pizza';
+import PizzaOveview from './Components/Pizza/PizzaOverview';
+import PizzaDetail from './Components/Pizza/PizzaDetail';
+import Header from './Components/Layout/Header';
 
 function App() {
   return (
-    <div className="App">
-      TEST
-    </div>
+    <Router>
+      <Header />
+      <Switch>
+        <Route path="/pizza/:pizzaId">
+          <PizzaDetail />
+        </Route>
+        <Route path="/">
+          <PizzaOveview />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 
